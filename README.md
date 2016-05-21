@@ -1,0 +1,2 @@
+# Photon Static Detector #
+
