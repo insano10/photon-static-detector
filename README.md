@@ -9,24 +9,25 @@ A Particle Photon project to detect the presence of static electricity and repor
 
 1. Set up your photon circuit to detect static electricity -> <insert link to blog post>
 
-1. Compile the contents of src/main/cpp
-
+2. Compile the contents of src/main/cpp
+    ```
     cd src/main/cpp
     particle compile p .
-    
-1. Connect your photon to your computer with a USB cable and put it in DFU mode
- - for instructions on how to do this see http://codefrieze.blogspot.co.uk/2015/08/using-particle-cli-on-ubuntu-1404.html
+    ```
+3. Connect your photon to your computer with a USB cable and put it in DFU mode
+  * (for instructions on how to do this see [here](http://codefrieze.blogspot.co.uk/2015/08/using-particle-cli-on-ubuntu-1404.html))
  
-1. Flash the binary onto your photon
-
+4. Flash the binary onto your photon
+    ```
     sudo particle flash --usb photon_firmware_xxxxxxxxx.bin
-
+    ```
 Note: you may get prompted to log in to the particle API if your session has expired since the last time you used it
 
 
 ### Web server
 
 If running in IntelliJ, simply run JettyLauncher.scala
+
 If running on the CLI
 
     sbt
