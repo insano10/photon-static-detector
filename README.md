@@ -7,7 +7,7 @@ A Particle Photon project to detect the presence of static electricity and repor
 
 ### Photon
 
-1. Set up your photon circuit to detect static electricity -> <insert link to blog post>
+1. Set up your photon circuit to detect static electricity. Instructions [here](https://codefrieze.blogspot.co.uk/2016/05/detecting-static-electricity-with-photon.html)
 
 2. Compile the contents of src/main/cpp
     ```
