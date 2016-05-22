@@ -1,3 +1,8 @@
+/*
+    This code was copied from https://github.com/nmattisson/HttpClient
+    It is the official HttpClient library accessed from the particle build IDE
+*/
+
 #ifndef __HTTP_CLIENT_H_
 #define __HTTP_CLIENT_H_
 
